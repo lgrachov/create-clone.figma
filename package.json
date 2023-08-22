@@ -1,0 +1,16 @@
+{
+  "name": "create-clone",
+  "version": "1.0.0",
+  "description": "Create clones in Figma with an easy Plugin. Adds '- clone' to the end of the name.",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "typescript": "*"
+  }
+}
